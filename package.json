@@ -1,0 +1,39 @@
+{
+  "name": "ftpify",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A simple yet powerful and customizable FTP and SFTP client with modern UI",
+  "author": {
+    "name": "Fonlogen",
+    "email": "info.fonlogen@gmail.com"
+  },
+  "homepage": ".",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start-electron": "electron main.js",
+    "build-bin-win": "electron-builder --win",
+    "build-bin-mac": "electron-builder --mac",
+    "build-bin-linux": "electron-builder --linux",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.4",
+    "electron": "^25.4.0",
+    "electron-builder": "^24.6.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "vite": "^4.4.5"
+  }
+}

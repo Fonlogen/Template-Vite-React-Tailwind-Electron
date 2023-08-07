@@ -1,0 +1,19 @@
+{
+  "directories": {
+    "output": "bin"
+  },
+  "appId": "com.obosoft.ftpify", 
+  "productName": "FTPify",
+  "win": {
+    "target": "nsis" 
+  },
+  "mac": {
+    "target": "dmg"
+  },
+  "linux": {
+    "target": [
+      "deb",
+      "pacman"
+    ]
+  }
+}
