@@ -1,16 +1,17 @@
 {
-  "name": "ftpify",
+  "name": "projectname",
   "private": true,
   "version": "0.0.1",
-  "description": "A simple yet powerful and customizable FTP and SFTP client with modern UI",
+  "description": "Project Description",
   "author": {
-    "name": "Fonlogen",
-    "email": "info.fonlogen@gmail.com"
+    "name": "Author Name",
+    "email": "author@example.com"
   },
   "homepage": ".",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
+    "dev-host": "vite --host",
     "build": "vite build",
     "start-electron": "electron main.js",
     "build-bin-win": "electron-builder --win",
